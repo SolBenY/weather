@@ -36,7 +36,7 @@ async function getWeather() {
   
   } catch (e) {
     console.error(e);
-    container.style.display = "none";
+    container.style.visibility = "hidden";
     alert("ERROR!!! what's with the typos today???");
     searchBox.value = "";
   }
