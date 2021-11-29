@@ -3,7 +3,7 @@ const nameC = document.getElementById("nameC");
 const temp = document.getElementById("temp");
 const feels = document.getElementById("feels");
 const mainW = document.getElementById("mainW");
-const apiLink = "http://api.openweathermap.org/data/2.5/weather?q=";
+const apiLink = "https://api.openweathermap.org/data/2.5/weather?q=";
 let city = "London";
 const apiKey = "&units=metric&APPID=d38eccaff6e5a5c1270a84b75679fdfc";
 const searchBox = document.getElementById("search");
