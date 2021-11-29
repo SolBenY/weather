@@ -21,7 +21,7 @@ async function getWeather() {
 
     city = searchBox.value;
 
-    const response = await fetch(apiLink + city + apiKey, { mode: "cors" });
+   let response = await fetch(apiLink + city + apiKey, { mode: "cors" });
     const weatherData = await response.json();
 
     nameC.textContent = weatherData.name;
